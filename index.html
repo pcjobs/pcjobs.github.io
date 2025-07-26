@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job in India Redirect</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            var appPackageName = "com.thunkable.android.pccomputeramreli.PC_Job_Alert";
+            var playStoreUrl = "https://play.google.com/store/apps/details?id=" + appPackageName;
+
+            // Construct the Android Intent URI
+            // This URI attempts to open the app using its package name
+            // If the app is not installed, the browser_fallback_url will be used.
+            var appIntentUri = "intent://jobinindia.github.io/#Intent;" +
+                               "scheme=https;" + // Or your custom scheme if you define one
+                               "package=" + appPackageName + ";" +
+                               "S.browser_fallback_url=" + encodeURIComponent(playStoreUrl) + ";" +
+                               "end;";
+
+            // Attempt to open the app
+            window.location.replace(appIntentUri);
+        };
+    </script>
+</head>
+<body>
+    <p>If you are not redirected, please click here:</p>
+    <a href="https://play.google.com/store/apps/details?id=com.thunkable.android.pccomputeramreli.PC_Job_Alert">Open App or Visit Play Store</a>
+</body>
+</html>
