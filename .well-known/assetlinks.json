@@ -1,9 +1,15 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.thunkable.android.pccomputeramreli.PC_Job_Alert",
-    "sha256_cert_fingerprints":
-    ["55:15:39:55:49:40:27:DC:A7:66:4A:90:AF:53:E8:2A:AD:73:06:56:0E:2B:20:8E:A4:7C:9C:0B:A9:63:50:63"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.thunkable.android.pccomputeramreli.PC_Job_Alert",
+      "sha256_cert_fingerprints": [
+        "55:15:39:55:49:40:27:DC:A7:66:4A:90:AF:53:E8:2A:AD:73:06:56:0E:2B:20:8E:A4:7C:9C:0B:A9:63:50:63",
+        "BD:9F:EE:25:20:32:BC:D3:EA:49:79:61:E5:2A:39:65:8D:20:E9:A3:DA:D6:2B:5E:81:11:7A:0A:6B:1C:74:2E"
+      ]
+    }
   }
-}]
+]
